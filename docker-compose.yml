@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  web_a:
+    build: ./getter
+    ports:
+      - "8000:8000"
+  web_b:
+    build: ./setter
+    ports:
+      - "8120:8120"
+  redis:
+    image: "redis:alpine"
