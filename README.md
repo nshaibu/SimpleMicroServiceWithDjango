@@ -12,8 +12,16 @@ docker-compose up
 * Request Type: ```POST```
 * DATA: ```{key: value}```
 
-Using ``Curl``:
-
+#### Using `Curl`:
+Run the command below to set the key `hello` to the value `world`.
+```
+curl  -X POST "http://127.0.0.1:8120/setter/set/values/" -d '{"hello": "world"}'
+```
 
 ## Getter App
+* Endpoint: ```http://127.0.0.1:8000/getter/get/<key:string>/```
+* Request Type: ```GET```
+* DATA: ```Key```
+
+#### Using `Curl`:
 
