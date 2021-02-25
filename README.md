@@ -8,10 +8,12 @@ docker-compose up
 ```
 
 ## Setter App
-Endpoint: ```http://127.0.0.1:8120/setter/set/values/```
-Request Type: ```POST```
-DATA: ```{key: value}```
+* Endpoint: ```http://127.0.0.1:8120/setter/set/values/```
+* Request Type: ```POST```
+* DATA: ```{key: value}```
+
+Using ``Curl``:
 
 
-## Getter  App
+## Getter App
 
